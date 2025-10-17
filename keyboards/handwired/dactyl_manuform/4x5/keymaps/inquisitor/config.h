@@ -27,12 +27,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef MOUSEKEY_INTERVAL
 #undef MOUSEKEY_INTERVAL
 #endif
-#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_INTERVAL 8 
 
 #ifdef MOUSEKEY_MAX_SPEED
 #undef MOUSEKEY_MAX_SPEED
 #endif
-#define MOUSEKEY_MAX_SPEED 55
+#define MOUSEKEY_MAX_SPEED 35 
 
 #ifdef MOUSEKEY_TIME_TO_MAX
 #undef MOUSEKEY_TIME_TO_MAX
@@ -42,4 +42,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef MOUSEKEY_MOVE_DELTA
 #undef MOUSEKEY_MOVE_DELTA
 #endif
-#define MOUSEKEY_MOVE_DELTA 2
+#define MOUSEKEY_MOVE_DELTA 1
